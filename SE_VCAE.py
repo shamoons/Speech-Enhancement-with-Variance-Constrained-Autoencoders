@@ -10,7 +10,7 @@ np.random.seed(1234)
 ## USER DEFINED PAREMETERS ##
 # Specify the GPU for Tensorflow to use, prevents Tensorflow
 # from locking all GPUs on a system.
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # Load Dataset, Only if this python file is being run dirrectly
 if __name__ == '__main__':
