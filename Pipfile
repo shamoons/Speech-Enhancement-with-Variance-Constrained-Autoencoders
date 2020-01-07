@@ -7,8 +7,8 @@ verify_ssl = true
 
 [packages]
 tensorflow = "~=1.12"
-soundfile = "*"
-numpy = "*"
+soundfile = "==0.10.2"
+numpy = "==1.16.1"
 
 [requires]
 python_version = "3.7"
